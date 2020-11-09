@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e45920030e2628bce2d7ed920a8b48cb3d8384c5522567dc37864e3318c45cd364736f6c634300060c0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE4 MSIZE KECCAK256 SUB 0xE 0x26 0x28 0xBC 0xE2 0xD7 0xED SWAP3 EXP DUP12 0x48 0xCB RETURNDATASIZE DUP4 DUP5 0xC5 MSTORE 0x25 PUSH8 0xDC37864E3318C45C 0xD3 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "66:7560:33:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e45920030e2628bce2d7ed920a8b48cb3d8384c5522567dc37864e3318c45cd364736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE4 MSIZE KECCAK256 SUB 0xE 0x26 0x28 0xBC 0xE2 0xD7 0xED SWAP3 EXP DUP12 0x48 0xCB RETURNDATASIZE DUP4 DUP5 0xC5 MSTORE 0x25 PUSH8 0xDC37864E3318C45C 0xD3 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "66:7560:33:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/utils/StringEnumerableMap.sol\":\"StringEnumerableMap\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/utils/StringEnumerableMap.sol\":{\"keccak256\":\"0x260d63ef05fc4b231315af9b931e7b6fbb455fa45e1f2ec7d7c4a870028cf446\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4bb37766670d32ad5d5abefdda7b21e9a7584b7e6efd3695b113167305ea73a\",\"dweb:/ipfs/QmcvYhwCeirx1Wpt4dGP36RG7Q9X4uhjBLRqV57Bg6rYwa\"]}},\"version\":1}",
+  "interface": [],
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e45920030e2628bce2d7ed920a8b48cb3d8384c5522567dc37864e3318c45cd364736f6c634300060c0033"
+}

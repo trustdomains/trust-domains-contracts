@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a97713bb427b045e755b4159ef236118f0c5188db48a09a1992ffde2471c8e0764736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA9 PUSH24 0x13BB427B045E755B4159EF236118F0C5188DB48A09A1992F REVERT 0xE2 SELFBALANCE SHR DUP15 SMOD PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "66:2433:32:-:0;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "6080604052600080fdfea2646970667358221220a97713bb427b045e755b4159ef236118f0c5188db48a09a1992ffde2471c8e0764736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA9 PUSH24 0x13BB427B045E755B4159EF236118F0C5188DB48A09A1992F REVERT 0xE2 SELFBALANCE SHR DUP15 SMOD PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "66:2433:32:-:0;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/utils/RouterUtil.sol\":\"RouterUtil\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/utils/RouterUtil.sol\":{\"keccak256\":\"0xa293ee155d4292bdcd781e49710d53caa1b9e8a823305cbf038ebeea2e9c3b92\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7272b9623f14ca7b25c360b5eb3445cb9952c7ff94fed21fac2fc658afc1ecb5\",\"dweb:/ipfs/QmR16ApXA7idhHFAk58FXhaDiZynViDt3R7b4hkSaXbWtN\"]}},\"version\":1}",
+  "interface": [],
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a97713bb427b045e755b4159ef236118f0c5188db48a09a1992ffde2471c8e0764736f6c634300060c0033"
+}
